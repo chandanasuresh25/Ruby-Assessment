@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sku:</strong>
+  <%= @product.SKU %>
+</p>
+
+<p>
+  <strong>Mrp:</strong>
+  <%= @product.MRP %>
+</p>
+
+<p>
+  <strong>Qunatity:</strong>
+  <%= @product.Qunatity %>
+</p>
+
+<p>
+  <strong>Discount:</strong>
+  <%= @product.Discount %>
+</p>
+
+<p>
+  <strong>Net price:</strong>
+  <%= @product.Net_price %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
