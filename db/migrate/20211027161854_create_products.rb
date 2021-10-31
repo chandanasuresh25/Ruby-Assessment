@@ -5,9 +5,7 @@ class CreateProducts < ActiveRecord::Migration[6.1]
       t.integer :MRP
       t.integer :Qunatity
       t.integer :Discount
-      t.integer :Net_price
-
-      t.timestamps
+      t.integer :Net_
     end
   end
 end
